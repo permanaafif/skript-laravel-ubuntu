@@ -7,7 +7,7 @@ sudo apt update
 sudo apt install -y apache2
 
 # Instal PHP dan ekstensi yang diperlukan
-sudo apt install -y php libapache2-mod-php php-mbstring php-xmlrpc php-soap php-gd php-xml php-cli php-zip php-bcmath php-tokenizer php-json php-pear
+sudo apt install -y php libapache2-mod-php php-mbstring php-xmlrpc php-soap php-gd php-xml php-cli php-zip php-bcmath php-tokenizer php-json php-pear php-mysql mysql-server
 
 # Instal Composer
 curl -sS https://getcomposer.org/installer | php
